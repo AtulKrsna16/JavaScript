@@ -12,3 +12,9 @@ const names = ["Krishan", "Balram", "Shyam"]
 names.forEach((element)=> {
     console.log(element.toUpperCase());
 })
+
+//map and for each are same 
+let array1 = [2, 3, 4]
+array.map((element, index, array1) => {
+    console.log(element, index, array1);  //result will always same
+})
