@@ -7,3 +7,8 @@ array.forEach(function(element, index, array){
 array.forEach((element, index, array) => {
     console.log("arrow funtion :- ",index, element, array);
 })
+
+const names = ["Krishan", "Balram", "Shyam"]
+names.forEach((element)=> {
+    console.log(element.toUpperCase());
+})
