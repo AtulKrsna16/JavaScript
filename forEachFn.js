@@ -29,3 +29,8 @@ const endsWithAm = names.filter((hero)=>{
     return hero.endsWith('am')
 })
 console.log(endsWithAm);
+
+// reduce function 
+const shoppingCartBill = [20, 30, 40]
+const sumOfCartBill = shoppingCartBill.reduce((prev,curr) => prev + curr, 0)
+console.log(sumOfCartBill);
