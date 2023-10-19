@@ -18,3 +18,7 @@ let array1 = [2, 3, 4]
 array.map((element, index, array1) => {
     console.log(element, index, array1);  //result will always same
 })
+
+names.map((hero) => {
+    console.log(hero.toUpperCase()); // result will always same
+})
