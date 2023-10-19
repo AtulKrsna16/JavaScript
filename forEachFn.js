@@ -22,3 +22,10 @@ array.map((element, index, array1) => {
 names.map((hero) => {
     console.log(hero.toUpperCase()); // result will always same
 })
+
+
+// filter 
+const endsWithAm = names.filter((hero)=>{
+    return hero.endsWith('am')
+})
+console.log(endsWithAm);
