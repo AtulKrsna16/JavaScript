@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM PART 3</title>
+</head>
+<body>
+    <h1>Hello All</h1>
+    <p id="js"></p>
+    <button onclick="hi()" id="jss">submit</button>
+
+    <script>
+        document.addEventListener("click", hello)
+        
+        function hello(){
+            document.getElementById("js").innerText = "Hi everyone"
+        }
+    
+        function hi() {
+            document.getElementById ("jss").innerText = "Namaste"
+            document.getElementById ("jss").style.color = "red"
+            document.getElementById ("jss").style.backgroundColor = "pink"
+            document.getElementById ("jss").style.border = "2px solid black" 
+            document.getElementById ("jss").style.padding = "20px" 
+            
+        }
+    </script>
+</body>
+</html>
